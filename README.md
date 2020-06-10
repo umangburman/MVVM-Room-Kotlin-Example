@@ -25,8 +25,6 @@ So let’s get started.
 
 **DAO:** Data access object. A mapping of SQL queries to functions. You used to have to define these painstakingly in your SQLiteOpenHelper class. When you use a DAO, you call the methods, and Room takes care of the rest.
 
-<img src="https://i.imgur.com/UsNsFfN.png" />
-
 **Kotlin:** Kotlin is an open-source, statically-typed programming language that supports both object-oriented and functional programming. Kotlin provides similar syntax and concepts from other languages, including C#, Java, and Scala, among many others. Kotlin does not aim to be unique — instead, it draws inspiration from decades of language development. It exists in variants that target the JVM (Kotlin/JVM), JavaScript (Kotlin/JS), and native code (Kotlin/Native).
 
 **MVVM**
@@ -35,6 +33,10 @@ So let’s get started.
 **LiveData:** A data holder class that can be observed. Always holds/caches latest version of data. Notifies its observers when the data has changed. LiveData is lifecycle aware. UI components just observe relevant data and don’t stop or resume observation. LiveData automatically manages all of this since it’s aware of the relevant lifecycle status changes while observing.
 
 **Repository:** A class that you create, for example using the WordRepository class. You use the Repository for managing multiple data sources.
+
+
+<img src="https://i.imgur.com/UsNsFfN.png" />
+
 
 **Coroutines**: Coroutines are a great new feature of Kotlin which allow you to write asynchronous code in a sequential fashion. … However, like RxJava, coroutines have a number of little subtleties that you end up learning for yourself during development time, or tricks that you pick up from others.
 
@@ -52,7 +54,8 @@ So let’s get started.
 
 ## 3. Important Annotations in Room.
 
-<img src="https://i.ibb.co/ysCPpvd/1-us-V410-Egk7-ZXDa-IJ8-AKtm-A.png" alt="1-us-V410-Egk7-ZXDa-IJ8-AKtm-A" border="0">
+
+<img src="https://i.imgur.com/KEXp8s2.png" />
 
 
 ## 4. Implementation Step-by-Step?
@@ -89,7 +92,8 @@ dependencies {
 
 ### **Step2:** Create different folders that relate to MVVM:
 
-<img src="https://i.ibb.co/JjSVNrt/Screenshot-2020-06-10-at-1-02-55-PM.png" alt="Screenshot-2020-06-10-at-1-02-55-PM" border="0">
+
+<img src="https://i.imgur.com/ug5rEp2.png" />
 
 
 ### **Step3:** Design your MainActivity which should look like this:
