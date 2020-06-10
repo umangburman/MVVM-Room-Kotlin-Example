@@ -36,8 +36,6 @@ So let’s get started.
 
 **Repository:** A class that you create, for example using the WordRepository class. You use the Repository for managing multiple data sources.
 
-<img src="https://i.ibb.co/PxnSsNB/a7da8f5ea91bac52.png" alt="a7da8f5ea91bac52" border="0">
-
 **Coroutines**
 **Coroutines** are a great new feature of Kotlin which allow you to write asynchronous code in a sequential fashion. … However, like RxJava, coroutines have a number of little subtleties that you end up learning for yourself during development time, or tricks that you pick up from others.
 
